@@ -14,6 +14,18 @@ extern "C" {
 
 typedef struct
 {
+	lv_obj_t *main;
+	lv_obj_t *main_cont0;
+	lv_obj_t *main_cont9;
+	lv_obj_t *main_tabview1;
+	lv_obj_t *main_label2;
+	lv_obj_t *main_label3;
+	lv_obj_t *main_label4;
+	lv_obj_t *main_line5;
+	lv_obj_t *main_label3_6;
+	lv_obj_t *main_label3_6_7;
+	lv_obj_t *main_btn8;
+	lv_obj_t *main_btn8_label;
 	lv_obj_t *menu;
 	lv_obj_t *menu_cont0;
 	lv_obj_t *menu_label1;
@@ -79,25 +91,13 @@ typedef struct
 	lv_obj_t *splashscreen_label2;
 	lv_obj_t *splashscreen_label3;
 	lv_obj_t *splashscreen_label2_4;
-	lv_obj_t *main;
-	lv_obj_t *main_cont0;
-	lv_obj_t *main_cont9;
-	lv_obj_t *main_tabview1;
-	lv_obj_t *main_label2;
-	lv_obj_t *main_label3;
-	lv_obj_t *main_label4;
-	lv_obj_t *main_line5;
-	lv_obj_t *main_label3_6;
-	lv_obj_t *main_label3_6_7;
-	lv_obj_t *main_btn8;
-	lv_obj_t *main_btn8_label;
 }lv_ui;
 
 void setup_ui(lv_ui *ui);
 extern lv_ui guider_ui;
+void setup_scr_main(lv_ui *ui);
 void setup_scr_menu(lv_ui *ui);
 void setup_scr_splashscreen(lv_ui *ui);
-void setup_scr_main(lv_ui *ui);
 LV_IMG_DECLARE(_osmu_alpha_100x100);
 
 #ifdef __cplusplus

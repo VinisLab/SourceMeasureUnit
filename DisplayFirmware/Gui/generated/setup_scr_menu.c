@@ -214,9 +214,9 @@ void setup_scr_menu(lv_ui *ui){
 	lv_style_set_line_color(&style_menu_line7_main, LV_STATE_DEFAULT, lv_color_make(0x3d, 0x3d, 0x3d));
 	lv_style_set_line_width(&style_menu_line7_main, LV_STATE_DEFAULT, 1);
 	lv_obj_add_style(ui->menu_line7, LV_LINE_PART_MAIN, &style_menu_line7_main);
-	lv_obj_set_pos(ui->menu_line7, 80, 95);
-	lv_obj_set_size(ui->menu_line7, 1, 168);
-	static lv_point_t menu_line7[] ={{0,0},{0,162}};
+	lv_obj_set_pos(ui->menu_line7, 80, 78);
+	lv_obj_set_size(ui->menu_line7, 1, 186);
+	static lv_point_t menu_line7[] ={{0,0},{0,186}};
 	lv_line_set_points(ui->menu_line7,menu_line7,2);
 
 	//Write codes menu_line7_8
@@ -232,7 +232,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_add_style(ui->menu_line7_8, LV_LINE_PART_MAIN, &style_menu_line7_8_main);
 	lv_obj_set_pos(ui->menu_line7_8, 160, 25);
 	lv_obj_set_size(ui->menu_line7_8, 1, 240);
-	static lv_point_t menu_line7_8[] ={{0,0},{0,230}};
+	static lv_point_t menu_line7_8[] ={{0,0},{0,240}};
 	lv_line_set_points(ui->menu_line7_8,menu_line7_8,2);
 
 	//Write codes menu_line7_8_9
@@ -248,7 +248,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_add_style(ui->menu_line7_8_9, LV_LINE_PART_MAIN, &style_menu_line7_8_9_main);
 	lv_obj_set_pos(ui->menu_line7_8_9, 240, 25);
 	lv_obj_set_size(ui->menu_line7_8_9, 1, 240);
-	static lv_point_t menu_line7_8_9[] ={{0,0},{0,230}};
+	static lv_point_t menu_line7_8_9[] ={{0,0},{0,240}};
 	lv_line_set_points(ui->menu_line7_8_9,menu_line7_8_9,2);
 
 	//Write codes menu_line7_8_9_10
@@ -264,7 +264,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_add_style(ui->menu_line7_8_9_10, LV_LINE_PART_MAIN, &style_menu_line7_8_9_10_main);
 	lv_obj_set_pos(ui->menu_line7_8_9_10, 320, 25);
 	lv_obj_set_size(ui->menu_line7_8_9_10, 1, 240);
-	static lv_point_t menu_line7_8_9_10[] ={{0,0},{0,230}};
+	static lv_point_t menu_line7_8_9_10[] ={{0,0},{0,240}};
 	lv_line_set_points(ui->menu_line7_8_9_10,menu_line7_8_9_10,2);
 
 	//Write codes menu_line7_8_9_10_11
@@ -280,7 +280,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_add_style(ui->menu_line7_8_9_10_11, LV_LINE_PART_MAIN, &style_menu_line7_8_9_10_11_main);
 	lv_obj_set_pos(ui->menu_line7_8_9_10_11, 400, 25);
 	lv_obj_set_size(ui->menu_line7_8_9_10_11, 1, 240);
-	static lv_point_t menu_line7_8_9_10_11[] ={{0,0},{0,230}};
+	static lv_point_t menu_line7_8_9_10_11[] ={{0,0},{0,240}};
 	lv_line_set_points(ui->menu_line7_8_9_10_11,menu_line7_8_9_10_11,2);
 
 	//Write codes menu_btn19
@@ -422,9 +422,9 @@ void setup_scr_menu(lv_ui *ui){
 
 	//Write style state: LV_STATE_DEFAULT for style_menu_btn19_20_17_main
 	lv_style_set_radius(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, 8);
-	lv_style_set_bg_color(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, lv_color_make(0xe0, 0xe0, 0xe0));
-	lv_style_set_bg_grad_color(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, lv_color_make(0x8f, 0x8f, 0x8f));
-	lv_style_set_bg_grad_dir(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, LV_GRAD_DIR_VER);
+	lv_style_set_bg_color(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, lv_color_make(0x02, 0x8d, 0xf7));
+	lv_style_set_bg_grad_color(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, lv_color_make(0x02, 0x85, 0x00));
+	lv_style_set_bg_grad_dir(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, LV_GRAD_DIR_HOR);
 	lv_style_set_bg_opa(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, 255);
 	lv_style_set_border_color(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, lv_color_make(0x01, 0xa2, 0xb1));
 	lv_style_set_border_width(&style_menu_btn19_20_17_main, LV_STATE_DEFAULT, 0);
@@ -436,7 +436,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_set_size(ui->menu_btn19_20_17, 127, 35);
 	ui->menu_btn19_20_17_label = lv_label_create(ui->menu_btn19_20_17, NULL);
 	lv_label_set_text(ui->menu_btn19_20_17_label, "Quickset");
-	lv_obj_set_style_local_text_color(ui->menu_btn19_20_17_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0x00, 0x00, 0x00));
+	lv_obj_set_style_local_text_color(ui->menu_btn19_20_17_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->menu_btn19_20_17_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_Roboto_Regular_12);
 
 	//Write codes menu_btn19_20_21_22_18
@@ -592,7 +592,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_set_size(ui->menu_btn19_20_21_22_18_23, 60, 35);
 	ui->menu_btn19_20_21_22_18_23_label = lv_label_create(ui->menu_btn19_20_21_22_18_23, NULL);
 	lv_label_set_text(ui->menu_btn19_20_21_22_18_23_label, "Templates");
-	lv_obj_set_style_local_text_color(ui->menu_btn19_20_21_22_18_23_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0x00, 0x00, 0x00));
+	lv_obj_set_style_local_text_color(ui->menu_btn19_20_21_22_18_23_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->menu_btn19_20_21_22_18_23_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_Roboto_Regular_12);
 
 	//Write codes menu_btn19_20_21_22_18_23_24
@@ -618,7 +618,7 @@ void setup_scr_menu(lv_ui *ui){
 	lv_obj_set_size(ui->menu_btn19_20_21_22_18_23_24, 60, 35);
 	ui->menu_btn19_20_21_22_18_23_24_label = lv_label_create(ui->menu_btn19_20_21_22_18_23_24, NULL);
 	lv_label_set_text(ui->menu_btn19_20_21_22_18_23_24_label, "Configure");
-	lv_obj_set_style_local_text_color(ui->menu_btn19_20_21_22_18_23_24_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0x00, 0x00, 0x00));
+	lv_obj_set_style_local_text_color(ui->menu_btn19_20_21_22_18_23_24_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_make(0xff, 0xff, 0xff));
 	lv_obj_set_style_local_text_font(ui->menu_btn19_20_21_22_18_23_24_label, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, &lv_font_Roboto_Regular_12);
 
 	//Write codes menu_btn19_20_21_22_18_23_24_25
